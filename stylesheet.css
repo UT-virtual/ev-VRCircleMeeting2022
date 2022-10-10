@@ -1,0 +1,81 @@
+.bg-white{
+    background-color: #fff;
+}
+
+.lecture{
+  display:flex;
+}
+
+
+.title {
+  font-size: 40pt;
+  font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  font-weight: bold;
+}
+
+.t_blue {
+  color: #bfeefd;
+}
+
+.t_white {
+  color: #ffffff;
+}
+
+.t_pink {
+  color: #f15b5b;
+}
+
+.no-gutters {
+  margin: 0;
+  padding: 0;
+}
+
+.no-gutters　 > .col,
+.no-gutters　 > [class*="col-"] {
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  padding: 50px 50px;
+}
+
+.thumb {
+  padding: 0px;
+
+  margin: 30px 0px 0px 0px;
+}
+
+.work_title {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 14pt;
+}
+
+.c1 {
+  font-size: 18pt;
+  font-family: "Meiryo", "メイリオ", "ＭＳ ゴシック",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  color: #4e6282;
+  text-align: center;
+}
+
+.c2 {
+  font-size: 16pt;
+  font-family: "メイリオ", "Meiryo", "ＭＳ ゴシック",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  color: #4e6282;
+  text-align: left;
+}
+
+.paras {
+  padding: 0px 20px;
+}
+
+.a_content {
+  font-size: 14pt;
+}
