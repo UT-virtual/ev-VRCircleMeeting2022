@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>全国学生VRサークル活動報告大会2022</title>
-    
     <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="shortcut icon" href="images/logos/square_mono.png">
+    <link rel="shortcut icon" href="images/favicon.png">
     <!-- Font awesome読み込み -->
     <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet">
     <!-- BootstrapのCSS読み込み -->
@@ -20,6 +19,29 @@
     <!-- remodalを使うための手続き -->
     <link rel="stylesheet" href="./remodal/remodal.css">
     <link rel="stylesheet" href="./remodal/remodal-default-theme.css">
+
+    <!-- Twitter and Facebook Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@UT_virtual" />
+    <meta property="og:url" content="http://vrcirclehoukokukai2022.utvirtual.tech/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="全国学生VRサークル活動報告大会2022" />
+    <meta property="og:description" content="VRにかかわる学生サークルによる学生のための活動報告大会" />
+    <meta property="og:image" content="http://vrcirclehoukokukai2022.utvirtual.tech/images/ogp.png" />
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    
+
 </head>
 
 <body>
@@ -60,7 +82,7 @@
 
     <div>
         <section id="top">
-            <img class="img-fluid" src="images/keyvisual01.png" width="100%" height="auto">
+            <img class="img-fluid" src="images/keyvisual.png" width="100%" height="auto">
             <div class="container">
                 <table class="table table-borderless">
                     <thead>
@@ -79,7 +101,7 @@
                                 <button class="btn btn-outline-primary btn-lg" onclick="location.href='https://cluster.mu/e/c950070f-c30f-4324-a404-8ebbb3adbea5'" target="_blank" rel="noopener noreferrer">Day1: cluster会場</button>
                             </td>
                             <td>
-                                <button disabled class="btn btn-outline-danger btn-lg" onclick="location.href=''" target="_blank" rel="noopener noreferrer">Day1: YouTube会場</button>
+                                <button class="btn btn-outline-danger btn-lg" onclick="location.href='https://youtu.be/3V28sT8A7Mo'" target="_blank" rel="noopener noreferrer">Day1: YouTube会場</button>
                             </td>
                         </tr>
                         <tr>
@@ -87,10 +109,10 @@
                                 <h1>Day2: 10/23 19:30~22:00</h1>
                             </td>
                             <td>
-                                <button disabled class="btn btn-outline-primary btn-lg" onclick="location.href=''" target="_blank" rel="noopener noreferrer">Day2: cluster会場</button>
+                                <button class="btn btn-outline-primary btn-lg" onclick="location.href='https://cluster.mu/e/0c13f3d9-e32b-4096-8897-9fa7bf7ee84f'" target="_blank" rel="noopener noreferrer">Day2: cluster会場</button>
                             </td>
                             <td>
-                                <button disabled class="btn btn-outline-danger btn-lg" onclick="location.href=''" target="_blank" rel="noopener noreferrer">Day2: YouTube会場</button>
+                                <button class="btn btn-outline-danger btn-lg" onclick="location.href='https://youtu.be/T-mzIkJ3-aY'" target="_blank" rel="noopener noreferrer">Day2: YouTube会場</button>
                             </td>
                         </tr>
                     </tbody>
@@ -129,7 +151,7 @@
                         </tr>
                         <tr>
                             <td>2022/10/20</td>
-                            <td>Day1 cluster会場を公開しました。</td>
+                            <td>会場リンクを公開しました。</td>
                         </tr>
                         </tbody>
                     </table>
@@ -141,17 +163,15 @@
             <div style="padding: 5% 10%" class="bg-grad-blue">
                 <h2 style="text-align: center">主催挨拶</h2>
                 <div style="text-align: center">
-                    <p>「VR元年」とも呼ばれた2016年、続く2017年には、日本各地でVRを取り扱うサークルが次々と発足。<br>
-                        2017年は、いわば「VRサークル元年」でした。その翌年の2018年に、全国VRサークル活動報告大会の第一回目が開催されました。<br>
-                        2016年から今日の2022年に至るまで、様々な消費者向けVRヘッドセットが市場に登場し、再び注目を集めています。<br>
-                        その一方で、2017年からできたサークルの中には、なくなってしまったサークルも少なからずありました。
-                    </p>
-                    <p> 本イベントの目的は、全国各地から「VRを扱う大学サークル」が集い、その活動内容や知見、悩みなどを共有し、<br>
-                        サークルをしている人のVRに対する情熱や好きな気持ちを伝え、中高生や大学生にVRを楽しそう！と思ってもらうこと。<br>
-                        活動している人が交流することで、創作や開発をさらに発展、加速させることです。<br>
-                        このイベントで新しいメンバーが増え、学生VRサークルが更に盛り上がっていくことを願っています。<br>
-                        大人の方には、そんな学生たちの活動を温かく見守りつつ、応援していただきたいと考えています。
-                    </p>
+                    <p>2017年は、いわば「VRサークル元年」でした。<br>
+                        「VR元年」と呼ばれた2016年の翌年、2017年に、日本各地でVRを取り扱うサークルが次々と発足したためです。<br>
+                        続く2018年には、全国VRサークル活動報告大会が初めて開催され、今日に至るまで、それぞれのVRサークルがVRを探究し続けてきました。<br>
+                        しかし一方で、志半ばにして、なくなってしまったサークルも少なからずありました。</p>
+                    <p>本イベントの目的は、全国から「VRを扱うサークル」が集い、交流することで、<br>
+                        サークル内外にVRの楽しさを伝えること、そしてそれぞれの活動を発展・加速させることです。<br>
+                        活動内容や知見、悩みなどを共有することで、さらなる前進を生んでほしい、そしてVRへの情熱を深めてほしいと、そう考えています。</p>
+                    <p>このイベントを通し、より広くVRの楽しさが伝わり、そして学生VRサークルが更に盛り上がっていくことを願っています。<br>
+                        社会人の皆様には、そんな学生たちの活動を温かく見守りつつ、応援していただきたいと思います。</p>
                 </div>
             </div>
         </section>
@@ -159,17 +179,48 @@
         <section id="event">
             <div style="padding: 5% 10%">
                 <h2 style="text-align: center">特別講演</h2>
-                
                 <div>
                     <div class="lecture" style="padding:1% 10%">
-                        <img src="images/lecture/ando.jpg" class="d-flex align-items-center" style="object-fit: cover;" width="250px" height="250px">
+                        <img src="images/lecture/aizawa.jpg" class="d-flex align-items-center" width="250px" height="250px">
+                        <div style="padding: 10pt;">
+                            <h4>
+                                開会に寄せて
+                            </h4>
+                            <h6>相澤清晴</h6>
+                            <p>
+                                東京大学バーチャルリアリティ教育研究センター センター長 / 日本学術会議会員<br>
+                                / 東京大学情報理工学研究科学際情報学府工学部電子情報工学科教授<br>
+                                画像処理、マルチメディア、コンピュータビジョンライフログ、3次元映像、漫画画像処理、ムービーマップなどの研究に従事。ACM Multimedia、 IEEE ICIPを始めこれまでに多くの国際会議の運営委員、プログラム委員を務める。2019年より日本バーチャルリアリティ学会副会長を務める。
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="lecture" style="padding:1% 10%; flex-direction: row-reverse;">
+                        <img src="images/lecture/kubota.jpg" class="d-flex align-items-center" width="250px" height="250px">
+                        <div style="padding: 10pt;">
+                            <h4>
+                                Day1
+                            </h4>
+                            <h6>久保田瞬</h6>
+                            <p>
+                                株式会社Mogura 代表取締役 / 『Mogura VR』編集長 / XRジャーナリスト<br>
+                                慶應義塾大学法学部政治学科卒業後、環境省入省。2015年にVRやAR、メタバースの専門メディア『Mogura VR』を立ち上げ、株式会社Moguraを創業。この分野が社会を変えていく無限の可能性に魅了され、それを広げる事業を展開している。XR/メタバースの動向分析、コンサルティングが専門。現在は子育てをしながら事業推進に、講演にと奮闘中。一般社団法人XRコンソーシアム事務局長、一般社団法人VRMコンソーシアム理事
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="lecture" style="padding:1% 10%">
+                        <img src="images/lecture/ando.jpg" class="d-flex align-items-center" width="250px" height="250px">
                         <div style="padding: 10pt;">
                             <h4>
                                 Day2
                             </h4>
                             <h6>安藤英由樹</h6>
                             <p>
-                                IVRC2022審査委員長 / 大阪芸術大学アートサイエンス学科教授 ヒトの感覚-知覚-運動の原理をもとにVR、AR、XRの分野を中心に錯覚利用インタフェース、医師と共同して手術追体験トレーニングシステム、 Wellbeingを実現する情報技術と社会デザインなどの研究に従事。70篇以上の論文、50件以上の特許など基礎研究に加え、芸術表現としての先端的科学技術の社会貢献にも関心を寄せ、自らも作品制作を行なう。第12回文化庁メディア芸術祭優秀賞、ARS ELECTRONICA PRIX Honorary Mention受賞(2009, 2011) 等。
+                                IVRC2022審査委員長 / 大阪芸術大学アートサイエンス学科教授<br>
+                                 ヒトの感覚-知覚-運動の原理をもとにVR、AR、XRの分野を中心に錯覚利用インタフェース、医師と共同して手術追体験トレーニングシステム、 Wellbeingを実現する情報技術と社会デザインなどの研究に従事。70篇以上の論文、50件以上の特許など基礎研究に加え、芸術表現としての先端的科学技術の社会貢献にも関心を寄せ、自らも作品制作を行なう。第12回文化庁メディア芸術祭優秀賞、ARS ELECTRONICA PRIX Honorary Mention受賞(2009, 2011) 等。
                             </p>    
                         </div>
                     </div>
@@ -313,6 +364,10 @@
         </section>
 
         <section id="footer" class="">
+            <div class="container-fluid" style="text-align:center">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="全国学生VRサークル活動報告大会" data-url="http://vrcirclehoukokukai2022.utvirtual.tech/" data-via="ut_virtual" data-hashtags="VRサークル報告会" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fvrcirclehoukokukai2022.utvirtual.tech%2F&layout=button&size=large&width=105&height=28&appId" width="105" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>    
+            </div>
             <div class="container-fluid" style="text-align:center">
                 <a style="color:#1DA1F2" href="https://twitter.com/UT_virtual" class="btn twitter" target="_blank"><span
                         class="fab fa-twitter"></span></a>
