@@ -19,7 +19,6 @@
 }
 
 .lecture img{
-  object-fit: contain;
   height: 250px;
   width: 250px;
 }
@@ -39,10 +38,21 @@
 .box {
   display:flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 .text {
   text-align: left;
+}
+
+.pict img {
+  height:auto;
+  width: 250px;
 }
 
 .title {
@@ -61,4 +71,30 @@
 .no-gutters　 > [class*="col-"] {
   margin: 0;
   padding: 0;
+}
+
+@media (max-width:768px) {
+  .box {
+    flex-direction: column;
+  }
+  .box:nth-child(even) {
+    flex-direction: column;
+  }
+  .text {
+    text-align: center;
+  }
+  .box:nth-child(even) .text {
+    text-align: center;
+  }
+  .pict {
+    width:100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .pict img {
+    margin: auto;
+    width:50%;
+    height:auto;
+  }
+  
 }
